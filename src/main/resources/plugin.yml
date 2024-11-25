@@ -1,0 +1,10 @@
+name: EssenceCrafter
+version: '1.0-SNAPSHOT'
+main: pro.akii.pl.essenceCrafter.EssenceCrafter
+api-version: '1.21'
+load: STARTUP
+authors: [ Akizuki ]
+website: https://akii.pro
+commands:
+  essence:
+    description: Manage Essence recipes

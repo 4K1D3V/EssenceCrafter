@@ -1,0 +1,36 @@
+# General Styling Settings
+general:
+  prefix: "&3[EssenceCrafter] "
+  version: "1.0-SNAPSHOT" # DO NOT CHANGE THE VERSION OR IT WILL CAUSE STARTUP ISSUES!!!
+
+# Main plugin Config
+essences:
+  healing_essence:
+    entity: "VILLAGER"
+    item:
+      material: "GOLDEN_APPLE"
+      name: "&aHealing Essence"
+      lore:
+        - "&7Restores health when used"
+      enchantments:
+        - "DURABILITY:1"
+    recipe:
+      - "DIAMOND:2"
+      - "GOLD_INGOT:4"
+
+  strength_essence:
+    entity: "IRON_GOLEM"
+    item:
+      material: "IRON_SWORD"
+      name: "&cStrength Essence"
+      lore:
+        - "&7Increases damage for 2 minutes"
+      enchantments:
+        - "SHARPNESS:3"
+    recipe:
+      - "IRON_BLOCK:3"
+      - "BLAZE_POWDER:5"
+
+# Customize the messages.
+messages:
+  only_for_players: "This command is only for players!"
