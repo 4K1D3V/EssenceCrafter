@@ -1,6 +1,4 @@
----
-
-# EssenceCrafter
+### EssenceCrafter
 
 **EssenceCrafter** is a Minecraft plugin that allows players to craft special "Essence Items" by interacting with custom entities. Admins can configure the crafting recipes, item abilities, and entity types using a configuration file (`config.yml`). Players can then use commands to manage the available Essence recipes and obtain crafted Essence Items with special effects.
 
@@ -85,5 +83,3 @@ essences:
 
 ## License
 This plugin is open-source under the [MIT License](LICENSE).
-
----
